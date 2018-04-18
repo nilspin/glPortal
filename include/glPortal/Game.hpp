@@ -10,8 +10,9 @@
 #include <radix/BaseGame.hpp>
 #include <radix/physics/PhysicsDebugDraw.hpp>
 #include <radix/renderer/PortalRenderer.hpp>
+//#include <radix/renderer/GameRenderer.hpp>
 
-#include "glPortal/renderer/GameRenderer.hpp"
+//#include "glPortal/renderer/GameRenderer.hpp"
 #include "glPortal/renderer/UiRenderer.hpp"
 #include <glPortal/GameController.hpp>
 #include <glPortal/input/InputManager.hpp>
@@ -39,7 +40,7 @@ public:
 private:
   std::unique_ptr<GameController> gameController;
   std::unique_ptr<radix::PhysicsDebugDraw> physicsDebugDraw;
-  std::unique_ptr<GameRenderer> gameRenderer;
+  //std::unique_ptr<GameRenderer> gameRenderer;
   std::unique_ptr<UiRenderer> uiRenderer;
   std::unique_ptr<radix::PortalRenderer> portalRenderer;
 
